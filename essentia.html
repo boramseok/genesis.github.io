@@ -1,0 +1,269 @@
+<!--
+    메뉴 배경 부드럽게 전환!
+    section02 : 스크롤할때 front 글자 나타나기!
+    section03 : 슬라이드 속도 맞추기
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>제네시스콘셉트카::Essentia</title>
+    <link rel="stylesheet" href="css/plugin/reset.css">
+    <link rel="stylesheet" href="css/plugin/common.css">
+    <link rel="stylesheet" href="css/plugin/slick.css">
+    <link rel="stylesheet" href="css/essentia.css">
+
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/slick.min.js"></script>
+    <script src="js/plugin/easing.js"></script>
+
+</head>
+<body>
+
+<div id="menu">
+    <div class="bg">
+        <div><img src="images/common/menu-bg01.jpg" alt=""></div>
+        <div><img src="images/common/menu-bg03.jpg" alt=""></div>
+        <div><img src="images/common/menu-bg02.jpg" alt=""></div>
+        <div><img src="images/common/menu-bg04.jpg" alt=""></div>
+    </div>
+    <div class="menu-inner">
+        <div class="menu-wrap">
+            <ul>
+                <li>
+                    <a href="essentia.html">
+                        <small>electric car</small>
+                        <h1>MINT</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="essentia.html">
+                        <small>SUV</small>
+                        <h1>GV80</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="essentia.html">
+                        <small>Sports car</small>
+                        <h1>Essentia</h1>
+                    </a>
+                </li>
+                <li>
+                    <a href="essentia.html">
+                        <small>Sedan</small>
+                        <h1>New York</h1>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="posNum"></div> -->
+
+<header id="header">
+    <div class="header-inner">
+        <div class="logo-txt"><a href="index.html"><img src="images/common/logo_text.png" alt=""></a></div>
+        <div class="logo-symbol"><img src="images/common/logo.png" alt=""></div>
+        <div class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+</header>
+
+<aside id="aside">
+    <a href="reservation.html">reservation</a>
+    <button class="startPoint"></button>
+</aside>
+
+<section id="container">
+    <section id="section01">
+        <div class="visual inner">
+            <div class="tit">
+                <div class="outline">
+                    <div class="con">
+                        <div><div><h1>E</h1></div></div>
+                        <div><div><h1>S</h1></div></div>
+                        <div><div><h1>S</h1></div></div>
+                        <div><div><h1>E</h1></div></div>
+                        <div><div><h1>N</h1></div></div>
+                        <div><div><h1>T</h1></div></div>
+                        <div><div><h1>I</h1></div></div>
+                        <div><div><h1>A</h1></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="img"><img src="images/sub/visual-img.png" alt=""></div>
+        </div>
+        <a class="btn" href="reservation.html">사전예약</a>
+    </section>
+
+    <section id="section02">
+        <div class="inner">
+            <div class="floating-wrap">
+                <div><img src="images/sub/floating-img02.jpg" alt=""></div>
+                <div><img src="images/sub/floating-img01.jpg" alt=""></div>
+            </div>
+            <div class="tit">
+                <h3>INTRODUCING THE ESSENTIA CONCEPT</h3>
+                <div class="txt">
+                    <div class="txt01">
+                        <div class="back">에센시아 콘셉트는 <b>제네시스 브랜드가 생각하는 진정한 GT의</b></div>
+                        <div class="front"><div class="cover">에센시아 콘셉트는 <b>제네시스 브랜드가 생각하는 진정한 GT의</b></div></div>
+                    </div>
+                    <div class="txt02">
+                        <div class="back"><b>기본 콘셉트를 표현</b>한 차량으로,</div>
+                        <div class="front"><div class="cover"><b>기본 콘셉트를 표현</b>한 차량으로,</div></div>
+                    </div>
+                    <div class="txt03">
+                        <div class="back">궁극의 제네시스 디자인과 기술력을 담아냄으로써</div>
+                        <div class="front"><div class="cover">궁극의 제네시스 디자인과 기술력을 담아냄으로써</div></div>
+                    </div>
+                    <div class="txt04">
+                        <div class="back"><b>평범함을 거부하고 그 이상에 도전</b>합니다.</div>
+                        <div class="front"><div class="cover"><b>평범함을 거부하고 그 이상에 도전</b>합니다.</div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="floating-wrap-02">
+                <div><img src="images/sub/floating-img04.jpg" alt=""></div>
+                <div><img src="images/sub/floating-img03.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="img"><img src="images/sub/sketch-img.jpg" alt=""></div>
+    </section>
+
+    <section id="section03">
+        <div class="tit inner">
+            <h4>DESIGN IN THE DETAILS</h4>
+            <h3>제네시스 디자인 철학인 동적인 우아함(Athletic Elegance)을<br>세련되게 재해석하였으며 향후 제네시스 차량에 적용될<br>미래 기술 비전을 제시합니다.</h3>
+        </div>
+        
+        <div class="slide inner">
+            <div class="slider-focus">
+                <div>
+                    <div><img src="images/sub/detail-img01.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>사이드 프로파일</h3>
+                        <p>리어 휠까지 이어지는 파라볼릭 라인이 고급스러운 볼륨감을 제공하는 동시에<br>구조감과 길이감을 돋보이게 하는 측면부.</p>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="images/sub/detail-img02.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>쿼드램프</h3>
+                        <p>에어로 다이내믹 컷-오프 스타일로 공력 개선을 한 디자인과<br>직선형 쿼드 램프가 인상적인 후면부.</p>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="images/sub/detail-img03.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>크레스트 그릴</h3>
+                        <p>진보된 형태의 크레스트 그릴과 함께 노스 콘(nose cone) 스타일이 적용된 디자인,<br>어드밴스드 탄소 섬유 섀시를 통해 안이 보이는 후드로 눈길을 사로잡는 전면부.</p>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="images/sub/detail-img04.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>코냑 컬러 가죽시트</h3>
+                        <p>하이패션에서 영감을 받은 쉐브론 퀼팅 마감의 코냑 컬러 가죽시트와 옥스퍼드 블루 벨벳 소재로 마감된 센터콘솔,<br>도어 등의 컬러 조합이 클래식하면서도 개성 있는 실내 분위기를 완성합니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <div><img src="images/sub/detail-img05.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>8인치 와이드 스크린</h3>
+                        <p>운전석과 조수석을 아우르는 와이드 스크린이 탑재된 센터페시아로 차량운행 관련 정보를 한눈에 제공하며<br>운전석에는 탄소 섬유를 겹겹이 배치한 8인치 와이드 스크린 디스플레이로 3D 효과를 느낄 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider">
+                <div>
+                    <div class="img"><img src="images/sub/detail-img02.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>쿼드램프</h3>
+                        <p>에어로 다이내믹 컷-오프 스타일로 공력 개선을 한 디자인과 직선형 쿼드 램프가 인상적인 후면부.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img"><img src="images/sub/detail-img03.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>크레스트 그릴</h3>
+                        <p>진보된 형태의 크레스트 그릴과 함께 노스 콘(nose cone) 스타일이 적용된 디자인, 어드밴스드 탄소 섬유 섀시를 통해 안이 보이는 후드로<br>눈길을 사로잡는 전면부.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img"><img src="images/sub/detail-img04.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>코냑 컬러 가죽시트</h3>
+                        <p>하이패션에서 영감을 받은 쉐브론 퀼팅 마감의 코냑 컬러 가죽시트와 옥스퍼드 블루 벨벳 소재로 마감된 센터콘솔, 도어 등의 컬러 조합이 클래식하면서도 개성 있는 실내 분위기를 완성합니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img"><img src="images/sub/detail-img05.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>8인치 와이드 스크린</h3>
+                        <p>운전석과 조수석을 아우르는 와이드 스크린이 탑재된 센터페시아로 차량운행 관련 정보를 한눈에 제공하며 운전석에는 탄소 섬유를 겹겹이 배치한 8인치 와이드 스크린 디스플레이로 3D 효과를 느낄 수 있습니다.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="img"><img src="images/sub/detail-img01.jpg" alt=""></div>
+                    <div class="detail">
+                        <h3>사이드 프로파일</h3>
+                        <p>리어 휠까지 이어지는 파라볼릭 라인이 고급스러운 볼륨감을 제공하는 동시에 구조감과 길이감을 돋보이게 하는 측면부.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section04">
+        <div class="bg"></div>
+        <div class="gallery">
+            <div class="top">
+                <div>
+                    <div><img src="images/sub/gallery-img02.jpg" alt=""></div>
+                    <div><img src="images/sub/gallery-img03.jpg" alt=""></div>
+                </div>
+                <div><img src="images/sub/gallery-img01.jpg" alt=""></div>
+            </div>
+            <div class="bottom">
+                <div><img src="images/sub/gallery-img04.jpg" alt=""></div>
+                <div>
+                    <div><img src="images/sub/gallery-img05.jpg" alt=""></div>
+                    <div><img src="images/sub/gallery-img06.jpg" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section05">
+        <div class="tit">
+            <h2>제네시스를 선택한 순간 당신의 일상은 특별해집니다.</h2>
+            <p>The moment you choose Genesis, your daily life becomes special.</p>
+        </div>
+        <a class="btn" href="reservation.html">사전예약</a>
+    </section>
+
+    <footer>
+        <img src="images/common/footer_logo.png" alt="">
+        <address>© 2021 Hyundai Motor Company. All Rights Reserved.</address>
+    </footer>
+</section>
+
+
+<script src="js/plugin/gsap.js"></script>
+<script src="js/plugin/scrollTrigger.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/setting.js"></script>
+<script src="js/essentia.js"></script>
+
+
+</body>
+</html>
